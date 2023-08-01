@@ -1,0 +1,18 @@
+<html>
+	<head></head>
+	<body>
+		<script>
+      			document.getElementById("test").innerHTML = "Goodbye World";
+    		</script>
+		<h1 id="test"> Hello World! </h1>
+	</body>
+</html>
+
+<!--
+
+Getting below error:
+Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')
+
+The content "Goodbye World" will have no effect, and the h1 element will remain as "Hello World!". because Javascript code is run before the html code execute that way content could not changed.
+-->
+
