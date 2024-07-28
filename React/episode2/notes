@@ -1,1 +1,15 @@
 1. What is the diff in the git and github?
+2. What a diff between ~ and ^ in package .josn
+3. What is the package.josn
+4. what is the npm? what do they
+5. What is the transitive dependency
+6. what is the node module
+7. Why not iclude CDN links into the project
+8. HMR = Hot Module Replacement
+9. Read the docs ==> https://parceljs.org/
+
+
+steps:
+npm init
+npm install -D parcel
+npx parcel index.html
